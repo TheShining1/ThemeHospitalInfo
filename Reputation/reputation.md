@@ -1,10 +1,11 @@
 For both, hospital and disease case.
 
-reputation = positiveFactor * 500 / negativeFactor
+**reputation = positiveFactor * 500 / negativeFactor**
 
 if negativeFactor < 1 then reputation = 500
 
 if reputation < 0 then reputation = 0
+
 if reputation > 1000 then reputation = 1000
 
 
